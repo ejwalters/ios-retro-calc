@@ -191,7 +191,7 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="7CS-7Z-lmY">
                                         <rect key="frame" x="0.0" y="198" width="243" height="63"/>
                                         <subviews>
-                                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hrw-k5-mI2">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hrw-k5-mI2">
                                                 <rect key="frame" x="0.0" y="0.0" width="61" height="63"/>
                                                 <animations/>
                                                 <constraints>
@@ -285,7 +285,6 @@
                                                 <state key="normal" image="clear"/>
                                                 <connections>
                                                     <action selector="onClearPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vi7-MS-Fek"/>
-                                                    <action selector="onSubtractPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7xV-1L-GId"/>
                                                 </connections>
                                             </button>
                                         </subviews>

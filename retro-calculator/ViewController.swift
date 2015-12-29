@@ -18,6 +18,7 @@ class ViewController: UIViewController {
         case Subtract = "-"
         case Add = "+"
         case Empty = "Empty"
+        case Clear = "Clear"
     }
     @IBOutlet weak var outputLabel: UILabel!
     var buttonSound: AVAudioPlayer!
@@ -71,9 +72,9 @@ class ViewController: UIViewController {
     }
     
     @IBAction func onClearPressed(sender: AnyObject) {
-        
-        clearDisplay()
+        clearDisplay() 
     }
+    
     func processOperation(op: Operation){
         
         playSound()
@@ -123,10 +124,9 @@ class ViewController: UIViewController {
         buttonSound.play()
         
     }
-    
     func clearDisplay(){
         
-        runningNumber = "0"
+        runningNumber = ""
         leftValString = ""
         rightValString = ""
         currentOperation = Operation.Empty
