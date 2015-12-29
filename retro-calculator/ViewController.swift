@@ -72,7 +72,7 @@ class ViewController: UIViewController {
     }
     
     @IBAction func onClearPressed(sender: AnyObject) {
-        clearDisplay() 
+        clearDisplay()
     }
     
     func processOperation(op: Operation){
